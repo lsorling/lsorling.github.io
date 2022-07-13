@@ -1,0 +1,73 @@
+/* we learned css in weblab 6. what can you remember? */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+h1 {
+    font-family: "Merriweather", sans-serif;
+}  
+#wrapper0 { 
+    height:auto; 
+    width:auto;
+    display:flex;
+    flex-direction: row;
+} 
+#wrapper1 { 
+    height:auto; 
+    width:auto;
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+} 
+#wrapper2 { 
+    margin: 50px;
+    padding-top: 10px;
+    padding-left: 180px;
+    padding-right: 180px;
+    height:auto; 
+    width:auto;
+    display:flex;
+    justify-content: space-between;
+}    
+#inner1 {
+    width: 32%;
+    padding: 30px;
+}
+#inner5 {
+    width: 24%;
+    padding: 30px;
+}
+#inner2 {
+    width: 80px;
+} 
+
+/*
+What Is an Accent Color? Accent colors are supplementary colors that typically contrast 
+or complement the primary colors used in a room. Accent colors are used for emphasis, 
+to enhance a color scheme, or to liven up or add drama to an otherwise monochromatic space.
+*/
+
+.fiveColorsBase {
+    background-color: #30c9e8; 
+}
+.fiveColorsAccent {
+    background-color: #ff4430; 
+}
+.fiveColorsDark {
+    background-color: #3A4A4D; 
+}
+.fiveColorsLight {
+    background-color: #f9fbfb; 
+}
+.fiveColorsWhite {
+    background-color: white; 
+}

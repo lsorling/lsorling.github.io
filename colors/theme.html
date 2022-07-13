@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!-- time taken 2h 30mins -->
+<!-- date 9 July 2022 -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="theme.css">
+        <title>Fun with Colors</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <style>
+            .coding {
+                padding-top: 120px;
+            }
+            .whitetext {
+                color: white;
+            }
+            footer {
+                text-align:center; 
+                padding-top: 50px;
+            }
+            .title {
+                font-weight:bolder; 
+                font-size: larger;
+            }
+            .button {
+                border-radius: 35px; 
+                border: none; 
+                height: 40px; 
+                width: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- this takes me the longest time -->
+        <!-- to float the logo next to nav items -->
+        <nav style="text-align:center; position: relative; height: 75px;">
+            <div style="width: 550px; position: absolute; left: 50%; 
+                -webkit-transform: translateX(-50%);
+                -moz-transform: translateX(-50%);
+                  transform: translateX(-50%);">
+                <figure>
+                    <img style="float: left;" width="40px" src="images/shuttle.png" alt="rocketship">
+                </figure>
+                <span class="title">Computhink Kids SG </span>
+                <!-- add some space between elements -->
+                <span style="margin-left: 35px;"></span>
+                <a href="#html">HTML</a> |
+                <a href="#css">CSS</a> |
+                <a href="#js">JavaScript</a> |
+                <a href="#python">Python</a>
+            </div>
+        </nav>
+        <main>
+            <section class="fiveColorsBase" style="height:500px;">
+                <div style="text-align:center; padding-top: 100px;">
+                    <h1>
+                        I <span class="whitetext">❤</span> Colors
+                    </h1>
+                    <p class="whitetext">
+                        Color really isn't that difficult to get right, if you know where to start.<br>
+                        Learn by doing and you'll be a master in no time.
+                    </p>
+                    <button id="btnRef" class="button fiveColorsAccent whitetext">
+                        Source</button>
+                    &nbsp;
+                    <button id="btnNext" class="button fiveColorsDark whitetext">
+                            Back</button>
+                </div>
+                <div id="wrapper2" style="text-align:center;">
+                    <div id="inner1" class="w3-card-4 w3-white">
+                        <figure>
+                            <img style="width: 50px;" src="images/butterfly.png" alt="blue butterfly">
+                        </figure>
+                        <p><strong>Blue</strong></p>
+                        <p>Blue is the color of the sky and sea. It is often associated with depth and stability.
+                            It symbolizes trust, loyalty, wisdom, confidence, intelligence, faith, truth and heaven.
+                        </p>
+                    </div>
+                    <div id="inner1" class="w3-card-4 w3-white">
+                        <figure>
+                            <img style="width: 50px;" src="images/tree.png" alt="tree">
+                        </figure>                          
+                        <p><strong>Green</strong></p>
+                        <p>Green is the color of nature. It symbolizes growth, harmony, freshness and fertility. 
+                            Green has strong emotional correspondence to safety.</p>
+                    </div>
+                    <div id="inner1" class="w3-card-4 w3-white">
+                        <figure>
+                            <img style="width: 50px;" src="images/learning.png" alt="learning">
+                        </figure>                        
+                        <p><strong>Red</strong></p>
+                        <p>Red is the color of fire and blood, so it is associated with energy, war, danger, strength, power,
+                            determination as well as passion, desire and love.
+                        </p>
+                    </div> 
+                </div>
+            </section>
+            <section class="fiveColorsLight" style="height:300px;">&nbsp;</section>
+            <section class="fiveColorsDark" style="height:360px; text-align: center; padding-top: 20px;">
+                <a id="html"></a>
+                <h1 class="coding whitetext">HTML</h1>
+                <div id="wrapper2" style="text-align:center;">
+                    <div id="inner5" class="w3-card-4 w3-white">
+                        Basic HTML, nothing fancy. You can view page source to check it out.
+                    </div>
+                    <div id="inner5" class="w3-card-4 w3-white">
+                        Tags like main, section and div are used.
+                    </div>
+                    <div id="inner5" class="w3-card-4 w3-white">
+                        Added html language, and meta tag with charset.
+                    </div>                    
+                    <div id="inner5" class="w3-card-4 w3-white">
+                        Using anchor tag as bookmark to jump to different sections within the page.
+                    </div>                     
+                </div>
+            </section>
+            <section class="fiveColorsLight" style="height:200px;">&nbsp;</section>
+            <section class="fiveColorsAccent" style="height:360px; text-align: center; padding-top: 20px;">
+                <a id="css"></a>
+                <h1 class="coding whitetext">CSS</h1>
+                <div id="wrapper2" style="text-align:center;">
+                    <div id="inner5" class="w3-card-4 w3-white">
+                        External CSS, Internal CSS and inline CSS - which one has precedence?
+                    </div>
+                    <div id="inner5" class="w3-card-4 w3-white">
+                        Use this to debug DIV placement: <br><code>border: solid red 2px;</code>
+                    </div>
+                    <div id="inner5" class="w3-card-4 w3-white">
+                        Using Google Fonts, click <a href="https://fonts.google.com/">here</a> for more information.
+                    </div>                    
+                    <div id="inner5" class="w3-card-4 w3-white">
+                        Use CSS to tranlate along the X-axis, to move and place Div in the center of the page.
+                    </div>                     
+                </div>                
+            </section>
+            <section class="fiveColorsWhite" style="height:200px;">&nbsp;</section>
+            <section class="fiveColorsLight" style="height:360px; text-align: center; padding-top: 20px;">
+                <a id="js"></a>
+                <h1 class="coding">JavaScript</h1>
+                <div id="wrapper2" style="text-align:center;">
+                    <div id="inner5" class="w3-card-4 w3-white">
+                        JavaScript makes the webpage comes "alive".
+                    </div>  
+                    <div id="inner5" class="w3-card-4 w3-white">
+                        Use JQuery for easy DOM manipulation.
+                        Added onClick event for the button on the page.
+                    </div>
+                    <div id="inner5" class="w3-card-4 w3-white">
+                        You can link to an external js file to keep JS codes in one place, separated from the HTML codes.
+                    </div>
+                    <div id="inner5" class="w3-card-4 w3-white">
+                        For interactive websites, you may want to look at React JS.
+                    </div>                     
+                </div>                 
+            </section>
+            <section class="fiveColorsWhite" style="height:200px;">&nbsp;</section>
+            <section class="fiveColorsBase" style="height:300px; text-align: center; padding-top: 20px;">
+                <a id="python"></a>
+                <h1 class="coding">Python</h1>
+                <div id="wrapper2" style="text-align:center;">
+                    <div id="inner1" class="w3-card-4 w3-white">
+                        Python can be used to build websites too. Look for Python flask module.
+                    </div>
+                    <div id="inner1" class="w3-card-4 w3-white">
+                        With Python, you can build dynamic websites that uses data from a data store.
+                    </div>
+                    <div id="inner1" class="w3-card-4 w3-white">
+                        Click <a href="https://www.computhink.com.sg/weekly-classes-ages-12-16/">here</a> to sign up for weekly coding lessons @ Computhink Kids SG.
+                    </div>                    
+                </div>
+            </section>
+            <section class="fiveColorsLight" style="height:200px;">&nbsp;</section>
+        </main>
+        <footer class="footer">All rights reserved. Images from <a href="www.freepik.com">freepik.com</a></footer>
+    </body>
+</html>
