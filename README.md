@@ -1,2 +1,2 @@
 # lsorling.github.io
-Loves Coding
+Coding is fun!
