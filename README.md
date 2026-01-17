@@ -1,3 +1,3 @@
 # lsorling.github.io
-Coding is fun!
+Coding can be fun!
 Check out my [page](https://lsorling.github.io/)
