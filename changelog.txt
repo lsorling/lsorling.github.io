@@ -1,0 +1,7 @@
+2-nov-2026
+
+remember about image tag attributes
+
+loading="lazy" decoding="async"
+
+for better performance
