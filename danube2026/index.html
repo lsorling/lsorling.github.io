@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Photofolio 2026</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1 {
+            font-family: "Montserrat", sans-serif
+        }
+
+        img {
+            margin-bottom: -7px
+        }
+
+        .w3-row-padding img {
+            margin-bottom: 12px
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()"
+            class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+            <i class="fa fa-remove"></i>
+        </a>
+        <div class="w3-bar-block w3-center">
+            <a href="#About" onclick="w3_close()" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+            <a href="#Photos" onclick="w3_close()" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+            <a href="#Contact" onclick="w3_close()"
+                class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+        </div>
+    </nav>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-content" style="max-width:1500px">
+
+        <!-- Header -->
+        <div class="w3-opacity">
+            <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+            <div class="w3-clear"></div>
+            <header class="w3-center w3-margin-bottom" id="Photos">
+                <h1><b>PHOTOLIO</b></h1>
+                <p><b>Traveller's Journal</b></p>
+                <p>Danube River Cruise 2026</p>
+                <!--
+                <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+                -->
+            </header>
+        </div>
+
+        <!-- Photo Grid -->
+        <div class="w3-row-padding" id="myGrid" style="margin-bottom:128px">
+            <div class="w3-third">
+                <img loading="lazy" decoding="async" src="./w3images/IMG_6960.JPG" style="width:100%"
+                    title="Parliament House, Budapest">
+                <img loading="lazy" decoding="async" src="./w3images/IMG_7109.JPG" style="width:100%" title="Budapest Danube Dinner River Cruise">
+                <img loading="lazy" decoding="async" src="./w3images/IMG_7011.JPG" style="width:100%" title="Budapest Danube River">
+                <img loading="lazy" decoding="async" src="./w3images/IMG_7256.JPG" style="width:100%" title="Cape Town, South Africa 2013">
+                <img loading="lazy" decoding="async" src="./w3images/IMG_7318.jpg" style="width:100%" title="View from top deck, Vienna">
+            </div>
+
+            <div class="w3-third">
+                <img loading="lazy" decoding="async" src="./w3images/IMG_7221.JPG" style="width:100%" title="Cobblestone Cobblestone">
+                <img loading="lazy" decoding="async" src="./w3images/IMG_7371.JPG" style="width:100%" title="Be my guest lunch, Wachau Valley, Austria">
+                <img loading="lazy" decoding="async" src="./w3images/IMG_7460.JPG" style="width:100%" title="Uniworld ship, SS Maria Theresa">
+            </div>
+
+            <div class="w3-third">
+                <img loading="lazy" decoding="async" src="./w3images/IMG_7019.jpg" style="width:100%" title="Fisherman Bastion, Budapest">
+                <img loading="lazy" decoding="async" src="./w3images/IMG_7223.JPG" style="width:100%"
+                    title="Bratislava lunch. Beef ball soup">
+                <img loading="lazy" decoding="async" src="./w3images/IMG_7348.JPG" style="width:100%" title="Durnstein, Wachau Valley">
+                <img loading="lazy" decoding="async" src="./w3images/IMG_7402.JPG" style="width:100%" title="Lake Mondsee, Austria. Near Salzburg, day trip out to trace the footsteps of the movie 'Sound of Music'">
+            </div>
+        </div>
+
+
+        <div class="w3-container w3-opacity">
+            <div class="w3-card" id="About">
+                <header class="w3-container w3-light-grey w3-center">
+                    <h1>About</h1>
+                </header>
+                <div class="w3-container">
+                    <p>This is my second river cruise in Europe. First time we went to Rhine River Cruise with Avalon.
+                        This time Danube river cruise with Trafalgar. Trafalgar has been doing land packages for a long time.
+                        In year 2026, it launch river cruise. Most of its ships are from Uniworld since they are from the same 
+                        parent company. We are curious how uniworld ships were. So we didn't think twice before booking the cruise 
+                        in Jan 2026.
+                    </p>
+                    <p>
+                        However Iran war broke out in end Jan 2026, causing oil prices to go up. And flight prices to go up too.
+                        Go read up on Hormuz straits. USA and Iran.
+                    </p>
+                    <p>In June, July, Europe has heatwave, and hot summer. Danube river and Rhine river dried up by End August.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-clear w3-padding-32"></div>
+
+        <div class="w3-container w3-center w3-opacity">
+            <div class="w3-card" id="Contact">
+                <header class="w3-container w3-yellow">
+                    <h1>Contact</h1>
+                </header>
+                <div class="w3-container">
+                    <p><i class="fa fa-address-book"></i>
+                        <b><a href="#">lsorling@yahoo.com.sg</a></b>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- End Page Content -->
+    </div>
+  <section class="w3-content">
+    <div class="w3-container">
+        <div class="content has-text-centered">
+            <h3>Photos can never capture the beauty of the places we went to.</h3>
+            <p>Here's a video I found online from a Chinese man explaining his day trip in Bratislava</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/MLLWKuCxwZk?si=AxPnNzo40LxPWXjw" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+        </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <!--<i class="fa fa-snapchat w3-hover-opacity"></i> -->
+        <!--<i class="fa fa-pinterest-p w3-hover-opacity"></i> -->
+        <!--<i class="fa fa-twitter w3-hover-opacity"></i> -->
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+                class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+
+    <script>
+        // Toggle grid padding
+        function myFunction() {
+            var x = document.getElementById("myGrid");
+            if (x.className === "w3-row") {
+                x.className = "w3-row-padding";
+            } else {
+                x.className = x.className.replace("w3-row-padding", "w3-row");
+            }
+        }
+
+        // Open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.width = "100%";
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
